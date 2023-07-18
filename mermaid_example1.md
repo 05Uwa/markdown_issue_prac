@@ -4,8 +4,23 @@
  コード図やガントーチャートやフロー図などが書ける
 - mermaidを利用するときの手順
   1. Visual Studio Code で Markdown All in Oneをインストールします。
+  2. インストールをしたあと、まずmermaidコードを打ち込んでみましょう
 
-
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+  3. コードを打ち込んだことによりMermaid記法をプレビューに表示させることができます。
+  4. ハイライト表示とは、Mermaid記法のコードに色を付け識別しやすくします。
+  5. Markdown PDF はMarkdownを画像やPDFに出力したいとき、コマンドパレットで出力形式を選択しフォルダにあるファイルに出力させることができます。
 
 
 - Visual Studio Codeのおすすめ拡張機能
